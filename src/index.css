@@ -1,0 +1,95 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body {
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.column-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  height: 99%;
+}
+
+.mood-1 {
+  background: url("../src/images/happy.avif");
+  background-size: cover;
+}
+
+.mood-2 {
+  background: url("../src/images/sad.jpeg");
+  background-size: cover;
+}
+
+.mood-3 {
+  background: url("../src/images/hype.webp");
+  background-size: cover;
+}
+
+.mood-4 {
+  background: url("../src/images/chill2.jpeg");
+  background-size: cover;
+}
+
+.mood-5 {
+  background: url("../src/images/sentimental.png");
+  background-size: cover;
+}
+
+.mood-6 {
+  background: url("../src/images/jazz.jpg");
+  background-size: cover;
+}
+
+.mood-7 {
+  background: url("../src/images/classical.jpeg");
+  background-size: cover;
+}
+
+.mood-8 {
+  background: url("../src/images/funk.avif");
+  background-size: cover;
+}
+
+.mood-9 {
+  background: url("../src/images/angry.webp");
+  background-size: cover;
+}
+
+.mood-10 {
+  background: url("../src/images/suspenseful.jpeg");
+  background-size: cover;
+}
+
+.image-text {
+  text-align: center;
+  margin-top: 25%;
+  font-size: 36px;
+  color: white;
+  font-family: "Notable";
+}
+
+.button {
+  background-color: #dcd3df;
+  margin-left: 40%;
+  padding: 25px;
+  height: 75%;
+  width: 25%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #543361;
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
